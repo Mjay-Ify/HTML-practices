@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+section {
+    background-color: rgb(22, 219, 219);
+    
+}
+section>div {
+    text-decoration: none;
+    color: rgb(189, 116, 22);
+    padding: 100px;
+}
+
+.grid-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    text-align: center;
+    gap: 10px;
+    font-size: 2.5rem;
+    color: beige;
+    border: 5px solid blue;
+}
+
+div:first-child {
+    background-color: azure;
+}
+
+div:nth-child(2) {
+    background-color: black;
+}
